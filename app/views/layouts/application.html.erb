@@ -10,19 +10,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
-    <div id="particles-js">
-      <%= render 'shared/navbar' %>
-      <%= render 'shared/banner' %>
-        <%= yield %>
-      <%= render 'shared/cards' %>
-     <%= render 'shared/contact' %>
-     <%= render 'shared/footer'%>
-     <script src="particles.js">
-      particlesJS.load('particles-js', '/app/assets/particles.json', function() {
-       console.log('callback - particles.js config loaded');
-
-      });
-     </script>
+     <div id="page-container" >
+       <%# <%= render 'shared/navbar' %> 
+       <div id="main-content">
+          <%# <%= render 'shared/banner' %> 
+          <%= yield %>
+          <%# <%= render 'shared/cards' %> 
+          <%# <%= render 'shared/contact' %> 
+          <%# <%= render 'shared/footer'%> 
+       </div>   
     </div> 
   </body>
 </html>

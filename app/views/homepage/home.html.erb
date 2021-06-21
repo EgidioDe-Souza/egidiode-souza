@@ -1,20 +1,147 @@
-  <!--About-->
-  <div id="particles-js"> 
-    <div class="container text-center col-lg-7 p-5" id="about">
-      <h1 class="p-3">About Me</h1>
-      <%= image_tag "P1000425.jpg", class: "avatar-large"%>
-      <p class="p-3">Hi Everyone, my name is Egidio De-Souza. I have a degree in Business With Mandarin, and I have been working in the international educational sector for the past three years. At the beginning of last year, 
-         I was a Sales and Admissions Advisor for an small independent school. 
-         Unfortunately, this industry struggled to cope during the pandemic and as a result I was made redundant from my job in September 2020. I used this setback as an opportunity to upskill myself, volunteered as a business advisor, and learn more about the technology industry. 
-         Through this a love for programming was discovered, and I undertook various courses on Python, SQL, HTML, CSS and JavaScript. I attended a 9-week full-timeintensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
-         SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
-         production a clone of AirBnB.
-      </p>         
-   </div>
+<!--Navbar-->
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <h1>Egidio De-Souza</h1>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+ </button>
+
+         
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+       <a class="nav-link" href="#home">Home</a>
+     </li>
+     <li class="nav-item"> 
+       <a class="nav-link" href="#about">About</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#contact">Contact</a>
+     </li>
+
+     <li class="nav-item dropdown">
+       <%# <%= image_tag "https://kitt.lewagon.com/placeholder/users/EgidioDe-Souza", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+         <%# <%= link_to "Action", "#", class: "dropdown-item" %>
+         <%# <%= link_to "Another action", "#", class: "dropdown-item" %>  
+       </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--End Of Navbar-->         
+
+<!--Banner-->
+<div class="banner">
+  <div class="container">
+    <%= image_tag "P1000425.jpg", width: "500", style: "float: right;"%>
+    <h1> Egidio De-Souza</h1>
+     <%# <span id="banner-typed-text"></span>  %>
+    </h1>
+    <ul class=" banner-icon float-left flex">
+      <li></li>
+      <li><a href="mailto:egidio.de-souza@hotmail.co.uk" class="icon" target="_blank"><i class="far fa-envelope"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/"class="icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/EgidioDe-Souza"class="icon" target="_blank"><i class="fab fa-github"></i></a></li>
+    </ul> 
+  </div>
 </div> 
-<script src="particles.js">
- particlesJS.load('particles-js', '/app/assets/particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
-</script>
- 
+<!--End Of Banner-->
+
+<%# <div id="page-container" class="homepage">
+<div class="home-body">
+      <div class="banner">
+        <ul class="flex">
+          <h1>Egidio De-Souza</h1>
+        <%# <span id="banner-typed-text"></span> %>
+        
+          <%# <li><a href="mailto:egidio.de-souza@hotmail.co.uk" class="icon" target="_blank"><i class="far fa-envelope"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/"class="icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/EgidioDe-Souza"class="icon" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul> 
+          <%= image_tag "P1000425.jpg", width: "500"%>
+        <%# </ul> %>
+<%# </div>  %>
+  
+<!--About-->
+<div class="container col-lg-7 text-center home pb-1" id="about" >
+  <h1>About</h1>
+  <p>Hi Everyone, my name is Egidio De-Souza. I have a degree in Business With Mandarin, and I have been working in the international educational sector for the past three years. At the beginning of last year, 
+    I was a Sales and Admissions Advisor for an small independent school. 
+    Unfortunately, this industry struggled to cope during the pandemic and as a result I was made redundant from my job in September 2020. I used this setback as an opportunity to upskill myself, volunteered as a business advisor, and learn more about the technology industry. 
+    Through this a love for programming was discovered, and I undertook various courses on Python, SQL, HTML, CSS and JavaScript. I attended a 9-week full-timeintensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
+    SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
+    production a clone of AirBnB.
+    </p>         
+</div>
+
+  <div class="row text-center home pb-1">
+        <div class="side-content"></div>
+        <div class="main-content">
+          <div class="content-header">
+            <a class="anchor" name="skills"></a>
+            <h1>Skills</h2>
+          </div>
+          <div class="content-body">
+            <ul class="ul-skills">
+              <li class="li-skills">Javascript</li>
+              <li class="li-skills">HTML</li>
+              <li class="li-skills">CSS</li>
+              <li class="li-skills">Ruby</li>
+              <li class="li-skills">Ruby On Rails</li>
+              <li class="li-skills">Bootstrap</li>
+              <li class="li-skills">Webpack</li>
+              <li class="li-skills">jQuery</li>
+              <li class="li-skills">Git</li>
+            </ul>
+          </div>
+        </div>
+        <div class="side-content"></div>
+      </div>
+<!--End Of About-->
+
+<!--Projects-->
+<h1 class="text-center pb-1">Projects</h1>
+<div class="row row-cols-1 row-cols-sm-2 g-3 home">
+  <div class="col">
+    <div class="card ">
+      <%# <% link_to "", "https://yumtum-egidiode-souza.herokuapp.com/", target: "_blank", class: "btn btn-gradient" %> 
+      <a href='https://yumtum-egidiode-souza.herokuapp.com/', target= "blank"><%= image_tag "yumtum-screenshot.JPG",  class: "card-img-top"%></a>
+       <div class="card-body">
+         <h5>Yumtum is an app that connects people with chef's who want to showcase their exquisite cuisines, and community cooks who want to give away their unwanted food to prevent food waste and help the homeless.</h5>  
+       </div>
+      </div> 
+    </div>
+
+   <div class="col">
+    <div class="card ">
+      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG",  class: "card-img-top"%></a>
+       <div class="card-body">
+        <h5>Educity was designed for people looking to upskill themselfves and seek a career change. Educity facilitates creation of peer groups via zoom, and allows individuals who are interested in the same course, to study together on the platform. </h5>
+      </div>
+    </div>
+  </div>
+
+</div> 
+
+
+<!--End Of Projects-->
+
+<!--Contact-->
+<div class="text-center pb-5 " id="contact">
+  <h1>Contact me</h1>
+  <p>If you would to find out more information about me, contact me via email: egidio.de-souza@hotmail.co.uk</p>
+</div>
+<!--End Of Contact-->
+
+<!--Footer-->
+<div class="footer  pb-1">
+  <div class="footer-links flex text-center">
+    <a href="https://github.com/EgidioDe-Souza" target="blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/" target="blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-credit">
+    <p>Developed By Egidio De-Souza</p>
+  </div>
+</div>
+<!--End Of Footer-->
