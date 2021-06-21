@@ -16,7 +16,24 @@
   width: 40px;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link   {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link a:hover {
+  color: red;
+}
+
+#logo {
+  color: $my-mustard;
+  font-family: Rosario, sans-serif;
+  font-weight: bold;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+.navbar-lewagon #logo {
+  font-size: 30px;
 }

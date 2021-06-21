@@ -1,4 +1,5 @@
   <!--About-->
+  <div id="particles-js"> 
     <div class="container text-center col-lg-7 p-5" id="about">
       <h1 class="p-3">About Me</h1>
       <%= image_tag "P1000425.jpg", class: "avatar-large"%>
@@ -9,7 +10,11 @@
          SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
          production a clone of AirBnB.
       </p>         
-    </div>
-
-
+   </div>
+</div> 
+<script src="particles.js">
+ particlesJS.load('particles-js', '/app/assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+</script>
  

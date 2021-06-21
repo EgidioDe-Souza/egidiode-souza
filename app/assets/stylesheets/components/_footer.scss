@@ -1,9 +1,6 @@
 .footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
+  background: black;
+  height: 155px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
 }
@@ -11,20 +8,32 @@
 .footer-links {
   display: flex;
   align-items: center;
+  
 }
 
 .footer-links a {
-  color: black;
-  opacity: 0.15;
+  color: white;
+  // opacity: 0.15;
   text-decoration: none;
   font-size: 24px;
-  padding: 0px 10px;
+  padding: 60px 0px 0px 20px;
+  bottom: 0;
+  justify-content: center;
 }
+
+
 
 .footer-links a:hover {
   opacity: 1;
+  color: #3350d2;
 }
 
-.footer .fa-heart {
-  color: #D23333;
+// .footer .fa-heart {
+//   color: #D23333;
+// }
+
+.footer-credit {
+float: right;
+padding: 10px
+
 }
