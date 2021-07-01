@@ -1,6 +1,7 @@
 <!--Navbar-->
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <h1>Egidio De-Souza</h1>
+  <%= image_tag "default-monochrome-white.svg", width: "250"%>
+  <%# <h1>Egidio De-Souza</h1> %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -34,17 +35,20 @@
 <!--Banner-->
 <div class="banner">
   <div class="container">
-    <%= image_tag "P1000425.jpg", width: "500", style: "float: right;"%>
-    <h1> Egidio De-Souza</h1>
-     <%# <span id="banner-typed-text"></span>  %>
-    </h1>
+    <%= image_tag "P1000425.jpg", class: "border border-primary", width: "500", style: "float: right;"%>
+    <h1>Egidio De-Souza</h1>
+    <h2>Full Stack Developer</h2>
     <ul class=" banner-icon float-left flex">
-      <li></li>
       <li><a href="mailto:egidio.de-souza@hotmail.co.uk" class="icon" target="_blank"><i class="far fa-envelope"></i></a></li>
       <li><a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/"class="icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
       <li><a href="https://github.com/EgidioDe-Souza"class="icon" target="_blank"><i class="fab fa-github"></i></a></li>
     </ul> 
+    <%# <p><span id="banner-typed-text" style="padding: 100px 120px;"></span></p> %>
   </div>
+  
+ 
+  
+
 </div> 
 <!--End Of Banner-->
 
@@ -66,13 +70,11 @@
 <!--About-->
 <div class="container col-lg-7 text-center home pb-1" id="about" >
   <h1>About</h1>
-  <p>Hi Everyone, my name is Egidio De-Souza. I have a degree in Business With Mandarin, and I have been working in the international educational sector for the past three years. At the beginning of last year, 
-    I was a Sales and Admissions Advisor for an small independent school. 
-    Unfortunately, this industry struggled to cope during the pandemic and as a result I was made redundant from my job in September 2020. I used this setback as an opportunity to upskill myself, volunteered as a business advisor, and learn more about the technology industry. 
-    Through this a love for programming was discovered, and I undertook various courses on Python, SQL, HTML, CSS and JavaScript. I attended a 9-week full-timeintensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
-    SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to
-    production a clone of AirBnB.
-    </p>         
+  <p>A motivated Full Stack Developer looking for a challenging and exciting opportunity to grow. 
+     Experienced in object orientated programming, developing, testing and debugging code. 
+     Previous experience in Sales and Client Relationship, and well versed in understanding client needs and able to use sophisticated problem solving in order to deliver client focused solutions. 
+     Studied Business With Mandarin Chinese at the University Of Hertfordshire, and had a study abroad and placement year in China.
+ </p>         
 </div>
 
   <div class="row text-center home pb-1">
@@ -105,32 +107,35 @@
 <div class="row row-cols-1 row-cols-sm-2 g-3 home">
   <div class="col">
     <div class="card ">
-      <%# <% link_to "", "https://yumtum-egidiode-souza.herokuapp.com/", target: "_blank", class: "btn btn-gradient" %> 
       <a href='https://yumtum-egidiode-souza.herokuapp.com/', target= "blank"><%= image_tag "yumtum-screenshot.JPG",  class: "card-img-top"%></a>
-       <div class="card-body">
-         <h5>Yumtum is an app that connects people with chef's who want to showcase their exquisite cuisines, and community cooks who want to give away their unwanted food to prevent food waste and help the homeless.</h5>  
-       </div>
-      </div> 
-    </div>
-
-   <div class="col">
-    <div class="card ">
-      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG",  class: "card-img-top"%></a>
-       <div class="card-body">
-        <h5>Educity was designed for people looking to upskill themselfves and seek a career change. Educity facilitates creation of peer groups via zoom, and allows individuals who are interested in the same course, to study together on the platform. </h5>
+      <div class="card-body">
+        <h5>Yumtum is an app that connects people with chef's who want to showcase their exquisite cuisines, and community cooks who want to give away their unwanted food to prevent food waste and help the homeless.</h5><br/>
+        <a href="https://yumtum-egidiode-souza.herokuapp.com/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
       </div>
-    </div>
+    </div> 
   </div>
 
+   <div class="col">
+     <div class="card ">
+      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG",  class: "card-img-top"%></a>
+       <div class="card-body">
+         <h5>Educity was designed for people looking to upskill themselfves and seek a career change. Educity facilitates creation of peer groups via zoom, and allows individuals who are interested in the same course, to study together on the platform.</h5>
+        <a href="http://www.educity.quest/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
+       </div>
+     </div>
+  </div>
 </div> 
-
-
 <!--End Of Projects-->
 
-<!--Contact-->
-<div class="text-center pb-5 " id="contact">
+<!--Contact-->  
+
+<div class="text-center pb-5 home icon-contact" id="contact" >
   <h1>Contact me</h1>
-  <p>If you would to find out more information about me, contact me via email: egidio.de-souza@hotmail.co.uk</p>
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Email: egidio.de-souza@hotmail.co.uk | GitHub: EgidioDe-Souza </h5>
+  </div>
+</div>
 </div>
 <!--End Of Contact-->
 

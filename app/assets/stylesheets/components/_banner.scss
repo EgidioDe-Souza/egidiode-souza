@@ -24,27 +24,40 @@
 
   .banner-icon {
     display: flex;
-    padding: 5px 5px;
+    padding: 5px 40px;
   }
 
-  // .banner ul li {
-  //   padding-bottom: 50px;
-  // }
 
   .banner h1 {
-    padding-top: 60px;
+    padding: 100px 0px 0px 0px;
     font-size: 56px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
   }
+
+  .banner h2 {
+    padding: 0px 0px 0px 70px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  // .banner h1,h2 {
+  //   padding-top: 60px;
+  // }
+  
  
-  #banner-typed-text {
-    margin: 0;
+  #banner-typed-text h1  {
+    margin: 0px;
+    padding: 0px 0px;
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
   }
+
+ 
 
   .float-left {
     float: left;
