@@ -1,5 +1,5 @@
 <!--Navbar-->
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon  col-sm-12 ">
   <%= image_tag "default-monochrome-white.svg", width: "250"%>
   <%# <h1>Egidio De-Souza</h1> %>
 
@@ -35,7 +35,7 @@
 <!--Banner-->
 <div class="banner">
   <div class="container">
-    <%= image_tag "P1000425.jpg", class: "border border-primary", width: "500", style: "float: right;"%>
+    <%= image_tag "P1000425.jpg", class: "border border-primary img-responsive", width: 500, style: "float: right;" %>
     <h1>Egidio De-Souza</h1>
     <h2>Full Stack Developer</h2>
     <ul class=" banner-icon float-left flex">
@@ -104,28 +104,29 @@
 
 <!--Projects-->
 <h1 class="text-center pb-1">Projects</h1>
-<div class="row row-cols-1 row-cols-sm-2 g-3 home">
+<div class="row row-cols-1 row-cols-2 g-4 home">
   <div class="col">
-    <div class="card ">
-      <a href='https://yumtum-egidiode-souza.herokuapp.com/', target= "blank"><%= image_tag "yumtum-screenshot.JPG",  class: "card-img-top"%></a>
+    <div class="card">
+      <a href='https://yumtum-egidiode-souza.herokuapp.com/', target= "blank"><%= image_tag "yumtum-screenshot.JPG", class: "card-img-top"%></a>
       <div class="card-body">
-        <h5>Yumtum is an app that connects people with chef's who want to showcase their exquisite cuisines, and community cooks who want to give away their unwanted food to prevent food waste and help the homeless.</h5><br/>
+        <h5>Yumtum is an app that connects people with chef's who want to showcase their exquisite cuisines, and community cooks who want to give away their unwanted food to prevent food waste and help the homeless.</h5>
         <a href="https://yumtum-egidiode-souza.herokuapp.com/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
       </div>
     </div> 
   </div>
 
    <div class="col">
-     <div class="card ">
-      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG",  class: "card-img-top"%></a>
+     <div class="card">
+      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG", class: "card-img-top"%></a>
        <div class="card-body">
          <h5>Educity was designed for people looking to upskill themselfves and seek a career change. Educity facilitates creation of peer groups via zoom, and allows individuals who are interested in the same course, to study together on the platform.</h5>
-        <a href="http://www.educity.quest/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
+         <a href="http://www.educity.quest/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
        </div>
      </div>
   </div>
 </div> 
 <!--End Of Projects-->
+
 
 <!--Contact-->  
 
