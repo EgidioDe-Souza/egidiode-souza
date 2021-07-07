@@ -1,6 +1,6 @@
 <!--Navbar-->
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon  col-sm-12 col-md-12 ">
-  <%= image_tag "default-monochrome-white.svg", width: "250"%>
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon  col-sm-6 col-md-12 ">
+  <%= image_tag "default-monochrome-white.svg", width: "190"%>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
        <%# <%= image_tag "https://kitt.lewagon.com/placeholder/users/EgidioDe-Souza", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
          <%# <%= link_to "Action", "#", class: "dropdown-item" %>
-         <%# <%= link_to "Another action", "#", class: "dropdown-item" %>  
+         <%# <%# <%= link_to "Another action", "#", class: "dropdown-item"   %>
        </div>
       </li>
     </ul>
@@ -32,20 +32,40 @@
 <!--End Of Navbar-->         
 
 <!--Banner-->
-<div class="banner">
-  <div class="container-md">
-    <%= image_tag "P1000425.jpg", class: "border border-primary img-thumbnail", width: 500, style: "float: right;" %>
-    <h1>Egidio De-Souza</h1>
+<div class="mobile-banner">
+  <div class="container-md text-center">
+    <%= image_tag "P1000425.jpg", class: "border border-primary img-thumbnail", width: "500" %>
+    <h1 class="p-1">Egidio De-Souza</h1>
     <h2>Full Stack Developer</h2>
-    <ul class="banner-icon">
+    <ul class="mobile-banner-icon ">
       <li><a href="mailto:egidio.de-souza@hotmail.co.uk" class="icon" target="_blank"><i class="far fa-envelope"></i></a></li>
       <li><a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/"class="icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
       <li><a href="https://github.com/EgidioDe-Souza"class="icon" target="_blank"><i class="fab fa-github"></i></a></li>
     </ul> 
+    <%# <p><span id="banner-typed-text" style="padding: 100px 120px;"></span></p> %>
   </div>
+  
+ 
+  
+
 </div> 
 <!--End Of Banner-->
- 
+
+<%# <div id="page-container" class="homepage">
+<div class="home-body">
+      <div class="banner">
+        <ul class="flex">
+          <h1>Egidio De-Souza</h1>
+        <%# <span id="banner-typed-text"></span> %>
+        
+          <%# <li><a href="mailto:egidio.de-souza@hotmail.co.uk" class="icon" target="_blank"><i class="far fa-envelope"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/"class="icon" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/EgidioDe-Souza"class="icon" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul> 
+          <%= image_tag "P1000425.jpg", width: "500"%>
+        <%# </ul> %>
+<%# </div>  %>
+  
 <!--About-->
 <div class="container col-lg-7 text-center home pb-1" id="about" >
   <h1>About</h1>
@@ -83,10 +103,10 @@
 
 <!--Projects-->
 <h1 class="text-center pb-1">Projects</h1>
-<div class="row row-cols-1 row-cols-lg-1  g-3 home">
+<div class="row row-cols-1 row-cols-sm-2 g-3 home">
   <div class="col">
     <div class="card">
-      <a href='https://yumtum-egidiode-souza.herokuapp.com/', target= "blank"><%= image_tag "yumtum-screenshot.JPG", class: "card-img-top "%></a>
+      <a href='https://yumtum-egidiode-souza.herokuapp.com/', target= "blank"><%= image_tag "yumtum-screenshot.JPG", class: "card-img-top"%></a>
       <div class="card-body">
         <h5>Yumtum is an app that connects people with chef's who want to showcase their exquisite cuisines, and community cooks who want to give away their unwanted food to prevent food waste and help the homeless.</h5><br/>
         <a href="https://yumtum-egidiode-souza.herokuapp.com/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
@@ -94,9 +114,9 @@
     </div> 
   </div>
 
-   <div class="col pt-5">
+   <div class="col">
      <div class="card">
-      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG", class: "card-img-top "%></a>
+      <a href='http://www.educity.quest/', target= "blank"><%= image_tag "educity-screenshot.JPG", class: "card-img-top"%></a>
        <div class="card-body">
          <h5>Educity was designed for people looking to upskill themselfves and seek a career change. Educity facilitates creation of peer groups via zoom, and allows individuals who are interested in the same course, to study together on the platform.</h5>
          <a href="http://www.educity.quest/", target="blank"><button type="button" class="btn btn-warning btn-lg">Click Here</button></a>
@@ -113,15 +133,15 @@
   <h1>Contact me</h1>
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title">Email: egidio.de-souza@hotmail.co.uk | GitHub: EgidioDe-Souza </h5>
+    <h5 class="card-title"><u>Email</u><br/>egidio.de-souza@hotmail.co.uk<br/><u>GitHub</u><br/>EgidioDe-Souza<br/></h5>
   </div>
 </div>
 </div>
 <!--End Of Contact-->
 
 <!--Footer-->
-<div class="footer  pb-1">
-  <div class="footer-links flex text-center">
+<div class="mobile-footer pb-1">
+  <div class="footer-links flex ">
     <a href="https://github.com/EgidioDe-Souza" target="blank"><i class="fab fa-github"></i></a>
     <a href="https://www.linkedin.com/in/egidio-de-souza-%E8%BF%AA%E6%AC%A7-2a712ab3/" target="blank"><i class="fab fa-linkedin"></i></a>
   </div>

@@ -52,21 +52,13 @@
     font-family: 'Open Sans', sans-serif;
   }
 
- /* Larger than mobile */
-@media (min-width: 400px) {}
+ /* BANNER MOBILE  */
+ .mobile-banner {
+  display: flex;
+  padding: 150px 0px;
+}
 
-/* Larger than phablet */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
-  
-
-  
+.mobile-banner-icon {
+  display: flex;
+  padding: 0px 5px;
+}

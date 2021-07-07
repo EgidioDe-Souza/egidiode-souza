@@ -35,5 +35,18 @@
 // }
 
 .footer-credit {
-float: right;
+padding: -1px 100px;
+text-align: center;
+}
+
+/*MOBILE FOOTER*/
+.mobile-footer {
+  background: black;
+  padding: 0px 50px;
+  width: 103%;
+  height: 80px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }

@@ -17,6 +17,10 @@
      color: white; 
      font-family: Arial, Helvetica, sans-serif
    }
+
+   br {
+     line-height: 10px;
+   }
    
    .top-home {
      position: relative;
@@ -134,6 +138,8 @@
 .navbar a:hover {
   background-color:#3350d2;
 }
+
+
 
 /*PAGE RESPONSIVENESS*/
 // @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
