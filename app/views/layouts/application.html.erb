@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Home | Egidio De-Souza</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-  <meta content="Bilingual Full Stack Developer " name="description">
-  <meta content="Full Stack Developer, Egidio De-Souza, Developer" name="keywords">
-  <meta name="keywords" content="egidio de-souza"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="HandheldFriendly" content="true">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="Bilingual Full Stack Developer " name="description">
+    <meta content="Full Stack Developer, Egidio De-Souza, Developer" name="keywords">
+    <meta name="keywords" content="Egidio De-Souza"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <%= favicon_link_tag asset_path('favicon-32x32.png') %>
+  <%= favicon_link_tag asset_path('favicon-16x16.png') %>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
      <div id="page-container" >
