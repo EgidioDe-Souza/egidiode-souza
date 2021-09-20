@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **egidio.de-souza@hotmail.co.uk**
 
-- 📄 Know about my experiences [https://www.canva.com/design/DAEgCbUzTMw/SvYBzGfVgwdVv3xga8LHdg/view?utm_content=DAEgCbUzTMw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](https://www.canva.com/design/DAEgCbUzTMw/SvYBzGfVgwdVv3xga8LHdg/view?utm_content=DAEgCbUzTMw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- 📄 Know about my experiences [Check Out My CV](https://www.canva.com/design/DAEqis9ttig/ESwt2dSydW5qrqld1123Yg/view?utm_content=DAEqis9ttig&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 - ⚡ Fun fact **Mandarin Speaker!**
 
