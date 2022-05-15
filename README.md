@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋🏽, I'm Egidio De-Souza</h1>
-<h3 align="center">I'm a passionate Full Stack Developer</h3>
+<h3 align="center">I'm a passionate Solutions Enigineerr</h3>
 
 - 👨‍💻 All of my projects are available at [https://www.egidiodesouza.com](https://www.egidiodesouza.com)
 
